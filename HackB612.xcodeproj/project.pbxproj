@@ -13,7 +13,15 @@
 		E35658CC1CB232680084C85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35658CA1CB232680084C85D /* Main.storyboard */; };
 		E35658CE1CB232680084C85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35658CD1CB232680084C85D /* Assets.xcassets */; };
 		E35658D11CB232680084C85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35658CF1CB232680084C85D /* LaunchScreen.storyboard */; };
-		E35658D91CB233C40084C85D /* china.dat in Resources */ = {isa = PBXBuildFile; fileRef = E35658D81CB233400084C85D /* china.dat */; };
+		E35658DC1CB2440E0084C85D /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E35658DB1CB2440E0084C85D /* OpenGLView.mm */; };
+		E35658DF1CB244280084C85D /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E35658DD1CB244280084C85D /* SimpleFragment.glsl */; };
+		E35658E01CB244280084C85D /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E35658DE1CB244280084C85D /* SimpleVertex.glsl */; };
+		E3E439621CB2A9C6006D9D04 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E439591CB2A9C6006D9D04 /* CC3Foundation.m */; };
+		E3E439631CB2A9C6006D9D04 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E4395B1CB2A9C6006D9D04 /* CC3GLMatrix.m */; };
+		E3E439641CB2A9C6006D9D04 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = E3E4395C1CB2A9C6006D9D04 /* CC3Kazmath.c */; };
+		E3E439651CB2A9C6006D9D04 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E439601CB2A9C6006D9D04 /* CC3Math.m */; };
+		E3E4396D1CB36BA3006D9D04 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3E4396B1CB36BA3006D9D04 /* photo.jpg */; };
+		E3E439721CB36BE6006D9D04 /* china.dat in Resources */ = {isa = PBXBuildFile; fileRef = E3E4396F1CB36BE6006D9D04 /* china.dat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +35,22 @@
 		E35658CD1CB232680084C85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35658D01CB232680084C85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35658D21CB232680084C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E35658D81CB233400084C85D /* china.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = china.dat; sourceTree = "<group>"; };
+		E35658DA1CB2440E0084C85D /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		E35658DB1CB2440E0084C85D /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView.mm; sourceTree = "<group>"; };
+		E35658DD1CB244280084C85D /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		E35658DE1CB244280084C85D /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		E3E439581CB2A9C6006D9D04 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		E3E439591CB2A9C6006D9D04 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		E3E4395A1CB2A9C6006D9D04 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		E3E4395B1CB2A9C6006D9D04 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		E3E4395C1CB2A9C6006D9D04 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		E3E4395D1CB2A9C6006D9D04 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		E3E4395E1CB2A9C6006D9D04 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		E3E4395F1CB2A9C6006D9D04 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		E3E439601CB2A9C6006D9D04 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		E3E439611CB2A9C6006D9D04 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		E3E4396B1CB36BA3006D9D04 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = images/photo.jpg; sourceTree = "<group>"; };
+		E3E4396F1CB36BE6006D9D04 /* china.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = china.dat; path = images/china.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +83,16 @@
 		E35658C01CB232680084C85D /* HackB612 */ = {
 			isa = PBXGroup;
 			children = (
-				E35658D81CB233400084C85D /* china.dat */,
+				E3E439671CB36B86006D9D04 /* images */,
+				E3E439571CB2A9B3006D9D04 /* Math */,
+				E35658DD1CB244280084C85D /* SimpleFragment.glsl */,
+				E35658DE1CB244280084C85D /* SimpleVertex.glsl */,
 				E35658C41CB232680084C85D /* AppDelegate.h */,
 				E35658C51CB232680084C85D /* AppDelegate.m */,
 				E35658C71CB232680084C85D /* ViewController.h */,
 				E35658C81CB232680084C85D /* ViewController.m */,
+				E35658DA1CB2440E0084C85D /* OpenGLView.h */,
+				E35658DB1CB2440E0084C85D /* OpenGLView.mm */,
 				E35658CA1CB232680084C85D /* Main.storyboard */,
 				E35658CD1CB232680084C85D /* Assets.xcassets */,
 				E35658CF1CB232680084C85D /* LaunchScreen.storyboard */,
@@ -80,6 +108,32 @@
 				E35658C21CB232680084C85D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3E439571CB2A9B3006D9D04 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E3E439581CB2A9C6006D9D04 /* CC3Foundation.h */,
+				E3E439591CB2A9C6006D9D04 /* CC3Foundation.m */,
+				E3E4395A1CB2A9C6006D9D04 /* CC3GLMatrix.h */,
+				E3E4395B1CB2A9C6006D9D04 /* CC3GLMatrix.m */,
+				E3E4395C1CB2A9C6006D9D04 /* CC3Kazmath.c */,
+				E3E4395D1CB2A9C6006D9D04 /* CC3Kazmath.h */,
+				E3E4395E1CB2A9C6006D9D04 /* CC3Logging.h */,
+				E3E4395F1CB2A9C6006D9D04 /* CC3Math.h */,
+				E3E439601CB2A9C6006D9D04 /* CC3Math.m */,
+				E3E439611CB2A9C6006D9D04 /* ccTypes.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		E3E439671CB36B86006D9D04 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E3E4396F1CB36BE6006D9D04 /* china.dat */,
+				E3E4396B1CB36BA3006D9D04 /* photo.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +167,6 @@
 				TargetAttributes = {
 					E35658BD1CB232680084C85D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = R8566SAVV3;
 					};
 				};
 			};
@@ -140,10 +193,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E439721CB36BE6006D9D04 /* china.dat in Resources */,
 				E35658D11CB232680084C85D /* LaunchScreen.storyboard in Resources */,
-				E35658D91CB233C40084C85D /* china.dat in Resources */,
 				E35658CE1CB232680084C85D /* Assets.xcassets in Resources */,
 				E35658CC1CB232680084C85D /* Main.storyboard in Resources */,
+				E35658DF1CB244280084C85D /* SimpleFragment.glsl in Resources */,
+				E3E4396D1CB36BA3006D9D04 /* photo.jpg in Resources */,
+				E35658E01CB244280084C85D /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E439641CB2A9C6006D9D04 /* CC3Kazmath.c in Sources */,
 				E35658C91CB232680084C85D /* ViewController.m in Sources */,
+				E35658DC1CB2440E0084C85D /* OpenGLView.mm in Sources */,
 				E35658C61CB232680084C85D /* AppDelegate.m in Sources */,
+				E3E439621CB2A9C6006D9D04 /* CC3Foundation.m in Sources */,
 				E35658C31CB232680084C85D /* main.m in Sources */,
+				E3E439631CB2A9C6006D9D04 /* CC3GLMatrix.m in Sources */,
+				E3E439651CB2A9C6006D9D04 /* CC3Math.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,10 +280,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.3;
 			};
 			name = Debug;
 		};
@@ -257,9 +318,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -268,6 +329,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackB612",
+				);
 				INFOPLIST_FILE = HackB612/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chengpei.HackB612;
@@ -279,6 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackB612",
+				);
 				INFOPLIST_FILE = HackB612/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chengpei.HackB612;
@@ -305,6 +376,7 @@
 				E35658D71CB232680084C85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
