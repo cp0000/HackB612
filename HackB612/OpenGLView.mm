@@ -202,7 +202,7 @@ const GLubyte Indices[] = {
 
     glDrawElements(GL_TRIANGLES, sizeof(Indices)/sizeof(Indices[0]), GL_UNSIGNED_BYTE, 0);
     [_context presentRenderbuffer:GL_RENDERBUFFER];
-    [self performSelectorOnMainThread:@selector(imageFromCurrentContext) withObject:nil waitUntilDone:NO];
+//    [self performSelectorOnMainThread:@selector(imageFromCurrentContext) withObject:nil waitUntilDone:NO];
 }
 
 - (void)setupDisplayLink {
